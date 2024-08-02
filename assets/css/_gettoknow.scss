@@ -1,0 +1,57 @@
+.gettoknow {
+    background-image: url("../img/2-star-mini.jpg");
+    z-index: 5;
+    position: relative;
+    color: white;
+    &::before{
+        z-index: -1;
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9) 33%, rgba(0,212,255,0) 100%);
+        background-color: transparent;
+        content: "";
+        display: block;
+        position: absolute;
+        opacity: 0.4;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.get-texts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h2{
+        @include set-h2;
+        display: flex;
+        align-items: center;
+    }
+    a{  
+        @include set-button-a;
+    }
+}
+.getdiv{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    text-align: right;
+    span{
+        background-color: #fff;
+        width: 100%;
+        height: 2px;
+    }
+}
+
+.car-mini{
+    width: 80%;
+    border:12px solid #FFFFFF59 ;
+    border-radius: 50%;
+}
+
+.textpath{
+    padding-left: 28px;
+    width: 120%;
+}

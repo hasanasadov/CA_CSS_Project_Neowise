@@ -1,0 +1,19 @@
+.causes {
+    background-image: url("../img/2-star-mini.jpg");
+    color: white;
+}
+
+.earth-mini {
+    width: 90%;
+    border-radius: 50%;
+    & + .textpath{
+        padding-left: 35px;
+        width: 120%;
+    }
+}
+.right{
+    align-items: center;
+}
+.right > h2 > .getdiv{
+    display: flex;
+}

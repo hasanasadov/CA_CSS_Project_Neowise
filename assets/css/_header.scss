@@ -1,0 +1,130 @@
+.navbar-collapse{
+    flex-grow: 0;
+}
+.navbar{
+    z-index: 15;
+    background-color: transparent !important;
+}
+
+.navbar-brand > img{
+    top:50%;
+    width: 200px !important;
+}
+.search{
+    width: 50px;
+    padding: 12px;
+    border:1px solid #7CDEE4;
+    border-radius: 50%;
+    background-color: #7CDEE4;
+    position:absolute ;
+    top: 25px;
+    right: 80px;
+}
+.search:hover{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+
+
+.nav-link{
+    color: #fff !important;
+}
+li >a{
+    background-color: transparent !important;
+    &:hover {
+        color: #7CDEE4 !important;
+    }
+}
+
+.dropdown-menu {
+    .dropdown-item {color: #7CDEE4 !important;}
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header{
+    height: 90vh;
+    &::before{
+        z-index: 0;
+        background-image: url("../img/astronot2-crop-png-3.png");
+        background-size: cover;
+        background-position: -185px 0px;
+        background-repeat: no-repeat;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        max-width: 90vw;
+        height: 100%;
+    }
+}
+.header-bottom {
+    animation: downn 1.5s ease-out;
+    padding-top: 7%;
+    z-index: 9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .header-texts{
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:#fff;
+        gap: 10px;
+        line-height: 1.5;
+        h4{
+            font-size: 1em;
+            color: #7CDEE4;
+            font-family: "Titillium Web", Sans-serif;
+            font-weight: 600;
+            letter-spacing: 10px;
+            color: #7CDEE4;
+            font-size: 16px;
+            
+        }
+        .elementor-divider-1{
+            padding: 20px 20px;
+            display: flex;
+            justify-content: end;
+            width: 100%;
+            text-align: right;
+            span{
+                background-color: #fff;
+                width: 30%;
+                height: 2px;
+            }
+        }
+        h1{
+            color: #ffffff;
+            font-family: "Titillium Web", Sans-serif;
+            letter-spacing: 10px;
+            padding: 0 10px;
+            font-size: 3em;
+            font-weight: 700;
+        }
+        .elementor-divider-2{
+            padding: 20px 0;
+
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            text-align: right;
+            span{
+                background-color:#7CDEE4;
+                width: 50%;
+                height: 2px;
+            }
+        }
+        p{
+            font-size: 1rem;
+            font-family:"Roboto",sans-serif;
+            text-align: center;
+            margin-bottom: 14.4px;
+        }
+    }
+}

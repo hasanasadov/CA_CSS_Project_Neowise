@@ -1,0 +1,32 @@
+@mixin set-h2 {
+    color: #7CDEE4;
+    font-family: "Titillium Web", Sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-align: center;
+    
+}
+@mixin set-h1{
+    font-size: 3em ;
+    font-weight: 600 !important;
+    color: white !important;
+}
+@mixin set-button-a {
+    width: max-content;
+    margin-top: 20px !important;
+    fill: #03045E;
+    color: #03045E;
+    background-color: #7CDEE4;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #7CDEE4;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+
+@mixin set-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
