@@ -43,25 +43,9 @@ li >a{
     overflow: hidden;
 }
 
-.header{
-    height: 90vh;
-    &::before{
-        z-index: 0;
-        background-image: url("../img/astronot2-crop-png-3.png");
-        background-size: cover;
-        background-position: -185px 0px;
-        background-repeat: no-repeat;
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        max-width: 90vw;
-        height: 100%;
-    }
-}
+
 .header-bottom {
+    padding-bottom: 100px;
     animation: downn 1.5s ease-out;
     padding-top: 7%;
     z-index: 9;
@@ -108,7 +92,7 @@ li >a{
             font-weight: 700;
         }
         .elementor-divider-2{
-            padding: 20px 0;
+            padding: 20px ;
 
             display: flex;
             justify-content: flex-start;

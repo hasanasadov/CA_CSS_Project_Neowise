@@ -19,6 +19,9 @@
             width: 100%;
         }
     }
+    .logo-2{
+        animation: upp 1.5s ease-out;
+    }
     &::before{
         background-image: linear-gradient( 140deg, #03045e 0%, #7cdee4 70%, #7cdee4 100%);
         background-color: transparent;
