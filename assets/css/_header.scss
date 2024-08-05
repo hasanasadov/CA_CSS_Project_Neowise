@@ -10,6 +10,11 @@
     .dropdown-menu{
         min-width: 3em !important;
     }
+    border-radius: 20px;
+    .dropdown-toggle:focus{
+        background-color: #7CDEE4 !important ;
+        color:black !important;
+    }
 }
 .navbar{
     z-index: 15;
