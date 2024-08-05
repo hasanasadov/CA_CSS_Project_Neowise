@@ -270,7 +270,7 @@ a {
   top: 90px;
   right: 0;
   padding: 15px;
-  min-width: 3em !important;
+  min-width: 150px !important;
   transform: translate(-50%);
   background-color: black;
   border-radius: 20px;
