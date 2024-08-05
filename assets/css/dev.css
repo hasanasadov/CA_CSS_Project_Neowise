@@ -218,6 +218,9 @@ a {
   .header .header-bottom {
     padding-bottom: 250px !important;
   }
+  .header .header-texts > h1 {
+    font-size: 128px !important;
+  }
   .search {
     position: relative !important;
     top: 0 !important;
