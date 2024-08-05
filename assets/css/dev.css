@@ -242,7 +242,10 @@ a {
   }
   .navbar-collapse .dropdown > .dropdown-toggle:focus {
     background-color: transparent !important;
-    color: aqua !important;
+    color: #7CDEE4 !important;
+  }
+  .navbar-collapse .dropdown-menu {
+    border: 1px solid #7CDEE4;
   }
   .rocketborder h1 {
     font-size: 3em !important;
