@@ -168,10 +168,6 @@ a {
     width: 100%;
     justify-content: end;
   }
-  .getdiv {
-    display: inline-block;
-    width: 40% !important;
-  }
   .neo-text {
     align-items: flex-start !important;
   }
@@ -197,13 +193,17 @@ a {
   .footer-wrapper form {
     margin-bottom: 0 !important;
   }
+  .getdiv {
+    display: inline-block;
+    width: 40% !important;
+  }
+  .car-mini, .earth-mini {
+    width: 70% !important;
+  }
   .textpath {
     width: 100% !important;
     padding-left: 20px !important;
     overflow: hidden;
-  }
-  .car-mini, .earth-mini {
-    width: 70% !important;
   }
   #textpatt {
     padding-left: -28px !important;
@@ -226,18 +226,18 @@ a {
     top: 0 !important;
     right: 0 !important;
   }
-  .textpath {
-    padding-left: 30px !important;
-  }
   .rocketborder h1 {
     font-size: 3em !important;
+  }
+  .blog-item {
+    max-width: 32%;
   }
   #textpatt {
     padding-left: 23px !important;
     top: 40px !important;
   }
-  .blog-item {
-    max-width: 32%;
+  .textpath {
+    padding-left: 30px !important;
   }
 }
 @media (min-width: 1200px) {
