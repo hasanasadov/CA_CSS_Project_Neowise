@@ -235,6 +235,7 @@ a {
     min-width: 3em !important;
     transform: translate(0) !important;
     background-color: transparent !important;
+    border: none !important;
   }
   .navbar-collapse .dropdown-menu {
     min-width: 3em !important;
@@ -273,6 +274,7 @@ a {
   transform: translate(-50%);
   background-color: black;
   border-radius: 20px;
+  border: 2px solid #7CDEE4;
 }
 .navbar-collapse .dropdown-menu {
   min-width: 3em !important;
@@ -299,8 +301,8 @@ a {
   border-radius: 50%;
   background-color: #7CDEE4;
   position: absolute;
-  top: -65px;
-  right: 50px;
+  top: -70px;
+  right: 5px;
 }
 
 .search:hover {
