@@ -1,3 +1,4 @@
+//! WHILE SCROLL BLOCK APPERANCE
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -15,6 +16,9 @@ hiddenElements.forEach((element) => {
     observer.observe(element);
 });
 
+
+
+//! COUNT FUNCTIONS 
 document.addEventListener('DOMContentLoaded', () => {
     const counterElement = document.getElementById('counter');
     let count = 0;
