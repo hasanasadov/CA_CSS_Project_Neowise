@@ -17,7 +17,7 @@
     border-radius: 50%;
     background-color: #7CDEE4;
     position:absolute ;
-    top: 25px;
+    top: -65px;
     right: 80px;
 }
 .search:hover{
@@ -41,6 +41,13 @@ li >a{
     background-color: black;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.header{
+    background-image: url("../img/astronot2-crop-png-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -250px;
 }
 
 

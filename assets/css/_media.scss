@@ -14,11 +14,17 @@
     #textpatt{
         top:-20px !important;
     }
+    
 }
 
 @media (min-width:768px) {
     .header{
         z-index: 9999;
+        
+        background-position-x: -350px !important;
+        .collapse{
+            padding-right: 3em;
+        }
         .header-texts > h1 {
             font-size: 5em !important;
             z-index: 10;
@@ -125,6 +131,13 @@
 }
 
 @media (min-width:992px) {
+    .header{
+        background-position-x: 0px !important;
+        background-size: contain !important;
+        .header-bottom{
+            padding-bottom: 250px !important;
+        }
+    }
     .search{
         position: relative !important;
         top:0 !important;
