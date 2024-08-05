@@ -226,6 +226,19 @@ a {
     top: 0 !important;
     right: 0 !important;
   }
+  .navbar-collapse {
+    flex-grow: 0 !important;
+    position: relative !important;
+    top: 0 !important;
+    right: 0 !important;
+    padding: 0px !important;
+    min-width: 3em !important;
+    transform: translate(0) !important;
+    background-color: transparent !important;
+  }
+  .navbar-collapse .dropdown-menu {
+    min-width: 3em !important;
+  }
   .rocketborder h1 {
     font-size: 3em !important;
   }
@@ -248,6 +261,16 @@ a {
 }
 .navbar-collapse {
   flex-grow: 0;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  padding: 15px;
+  min-width: 3em !important;
+  transform: translate(-50%);
+  background-color: black;
+}
+.navbar-collapse .dropdown-menu {
+  min-width: 3em !important;
 }
 
 .navbar {
@@ -268,7 +291,7 @@ a {
   background-color: #7CDEE4;
   position: absolute;
   top: -65px;
-  right: 80px;
+  right: 50px;
 }
 
 .search:hover {

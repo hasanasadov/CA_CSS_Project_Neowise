@@ -178,9 +178,21 @@
         top:0 !important;
         right: 0 !important;
     }
+    .navbar-collapse{
+        flex-grow: 0 !important;
+        position: relative !important;
+        top: 0 !important;
+        right:0 !important;
+        padding: 0px !important;
+        min-width: 3em !important;
+        transform: translate(0) !important;
+        background-color: transparent !important;
+        .dropdown-menu{
+            min-width: 3em !important;
+        }
+    }
 
 
-    
     //! ROCKETBORDER SECTION
     .rocketborder h1{
         font-size: 3em !important;

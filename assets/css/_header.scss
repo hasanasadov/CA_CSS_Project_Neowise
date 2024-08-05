@@ -1,5 +1,15 @@
 .navbar-collapse{
     flex-grow: 0;
+    position: absolute;
+    top: 90px;
+    right:0;
+    padding: 15px;
+    min-width: 3em !important;
+    transform: translate(-50%) ;
+    background-color: black ;
+    .dropdown-menu{
+        min-width: 3em !important;
+    }
 }
 .navbar{
     z-index: 15;
@@ -18,7 +28,7 @@
     background-color: #7CDEE4;
     position:absolute ;
     top: -65px;
-    right: 80px;
+    right: 50px;
 }
 .search:hover{
     background-color: rgb(255, 255, 255) !important;
