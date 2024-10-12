@@ -1,7 +1,7 @@
 # Code_Academy_Neowise
 
 # Deployment link
-hasneowise.netlify.app
+hasneowise.vercel.app
 
 https://preview.themeforest.net/item/neowise-astronomy-elementor-template-kit/full_screen_preview/51132724
 
